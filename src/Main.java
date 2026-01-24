@@ -293,6 +293,7 @@ public class Main {
 //        System.out.println("Arr ning eng katta qiymati: " + Utils.arrMax(arr));
 
         // #29-masala
+        System.out.println("Arr ning Juft qiymatlari yig'indisi: " + Utils.arrJuftSum(arr));
 
 
     }

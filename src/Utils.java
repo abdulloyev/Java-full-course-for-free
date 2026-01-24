@@ -67,4 +67,15 @@ public class Utils {
 
         return max_number;
     }
+
+    public static double arrJuftSum(double[] arr){
+        double sum = 0;
+
+        for (double i: arr)
+            if (i % 2 == 0)
+                sum += i;
+
+        return sum;
+    }
+
 }
