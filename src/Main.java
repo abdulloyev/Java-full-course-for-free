@@ -303,5 +303,8 @@ public class Main {
         // #31-masala
 //        Utils.arrReverse(arr);
 
+        // #32-masala
+//        Utils.arrMaxMin(arr);
+
     }
 }

@@ -83,4 +83,20 @@ public class Utils {
         for (int i = lenth - 1; i >= 0; i--)
             System.out.print(" " + arr[i]);
     }
+
+    public static void arrMaxMin(double[] arr){
+        double max = arr[0];
+        double min =arr[0];
+
+        for (double i: arr){
+            if (i > max)
+                max = i;
+
+            if (i < min)
+                min = i;
+        }
+
+        System.out.println("Arr ning eng katta elementi: " + max);
+        System.out.println("Arr ning end kichik elementi: " + min);
+    }
 }
