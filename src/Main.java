@@ -306,5 +306,13 @@ public class Main {
         // #32-masala
 //        Utils.arrMaxMin(arr);
 
+        // #33-masala
+//        boolean n = Utils.isTub(6);
+//        if (n)
+//            System.out.println("Tub son");
+//        else
+//            System.out.println("Tub emas");
+
+
     }
 }
