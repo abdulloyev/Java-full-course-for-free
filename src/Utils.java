@@ -78,4 +78,9 @@ public class Utils {
         return sum;
     }
 
+    public static void arrReverse(double[] arr){
+        int lenth = arr.length;
+        for (int i = lenth - 1; i >= 0; i--)
+            System.out.print(" " + arr[i]);
+    }
 }

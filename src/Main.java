@@ -296,9 +296,12 @@ public class Main {
 //        System.out.println("Arr ning Juft qiymatlari yig'indisi: " + Utils.arrJuftSum(arr));
 
         // #30-masala
-        System.out.print("N = ");
-        int n = sc.nextInt();
-        System.out.println("Berilgan sonning raqamlar yig'indizi: " + Utils.numberSum(n));
+//        System.out.print("N = ");
+//        int n = sc.nextInt();
+//        System.out.println("Berilgan sonning raqamlar yig'indizi: " + Utils.numberSum(n));
+
+        // #31-masala
+//        Utils.arrReverse(arr);
 
     }
 }
