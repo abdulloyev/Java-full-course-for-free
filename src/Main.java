@@ -10,6 +10,13 @@ public class Main {
         // Arr
         double[] arr = {2, 5, 12, 54, -34, 50, -4, -45, 2, 5, -4};
 
+        // Arr 2x2
+        int[][] arr2x = {
+                {10, 2, 3},
+                {4, 15, 6},
+                {7, 8, 20}
+        };
+
         // #1-masala: Kvadrat perimetri
 //        System.out.print("a ni kiriting: ");
 //        int a = sc.nextInt();
@@ -312,6 +319,9 @@ public class Main {
 //            System.out.println("Tub son");
 //        else
 //            System.out.println("Tub emas");
+
+        // #34-masala
+        System.out.println(Utils.arrDioganalSum(arr2x));
 
 
     }
