@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Utils {
     public static int numberSum(int n) {
         n = Math.abs(n);
@@ -143,7 +145,7 @@ public class Utils {
         return a == polendrom;
     }
 
-    public  static double[] arrManfiyNumber(double[] arr){
+    public static double[] arrManfiyNumber(double[] arr){
         int leng = 0;
 
         for (double i: arr)
@@ -163,5 +165,11 @@ public class Utils {
             }
 
         return res;
+    }
+
+    public static double[] arrSort(double [] arr){
+        Arrays.sort(arr);
+
+        return arr;
     }
 }
