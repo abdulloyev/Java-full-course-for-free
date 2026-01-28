@@ -1,3 +1,5 @@
+import jdk.jshell.execution.Util;
+
 import java.util.Scanner;
 
 public class Main {
@@ -321,8 +323,12 @@ public class Main {
 //            System.out.println("Tub emas");
 
         // #34-masala
-        System.out.println(Utils.arrDioganalSum(arr2x));
+//        System.out.println(Utils.arrDioganalSum(arr2x));
 
+
+        // #35-masala
+//        int n = 1213;
+//        System.out.println("Polendrom son" + (!Utils.numberPolendrom(n) ? " emas" : ""));
 
     }
 }

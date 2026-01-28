@@ -126,4 +126,20 @@ public class Utils {
 
         return sum;
     }
+
+    public static boolean numberPolendrom(int n){
+        if (n < 0)
+            return false;
+
+        int a =n;
+        int polendrom = 0;
+
+        while (n != 0){
+            int qoldiq = n % 10;
+            polendrom = (polendrom *10) +qoldiq;
+            n = n / 10;
+        }
+
+        return a == polendrom;
+    }
 }
