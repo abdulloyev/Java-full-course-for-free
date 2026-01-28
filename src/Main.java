@@ -330,5 +330,12 @@ public class Main {
 //        int n = 1213;
 //        System.out.println("Polendrom son" + (!Utils.numberPolendrom(n) ? " emas" : ""));
 
+        // #36-masala
+        double[] aa = {3, -4, -6.7, 4, 2, -1};
+        double newArr[] = (Utils.arrManfiyNumber(aa));
+
+        for (double i: newArr)
+            System.out.println(i);
+
     }
 }

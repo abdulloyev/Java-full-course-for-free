@@ -142,4 +142,26 @@ public class Utils {
 
         return a == polendrom;
     }
+
+    public  static double[] arrManfiyNumber(double[] arr){
+        int leng = 0;
+
+        for (double i: arr)
+            if (i<0)
+                leng++;
+
+        if (leng == 0)
+            return new double[0];
+
+        double res[] = new double[leng];
+        int index = 0;
+
+        for (double i: arr)
+            if (i < 0){
+                res[index] = i;
+                index++;
+            }
+
+        return res;
+    }
 }
